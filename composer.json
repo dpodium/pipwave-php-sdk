@@ -1,0 +1,27 @@
+{
+    "name": "dpodium/pipwave-php-sdk",
+    "description": "Module for generating Pipwave SDK session",
+    "type": "yii2-extension",
+    "keywords": ["yii2","pipwave","dpodium","sdk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Raymond Reformado",
+            "email": "mark.raymond@dpodium.com",
+            "homepage": "http://www.dpodium.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/dpodium/pipwave-php-sdk",
+        "issues": "https://github.com/dpodium/pipwave-php-sdk/issues"
+    },
+    "require": {
+        "yiisoft/yii2": "2.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dpodium\\pipwave\\sdk\\": ""
+        }
+    }
+}
